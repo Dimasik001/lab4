@@ -457,7 +457,6 @@ for (var i = 0; i < sequence.length; i++) {
     break;
   }
 }
-
 // Вывод результата
 if (index === -1) {
   alert("В последовательности нет чисел, больших заданного " + n);
@@ -465,7 +464,6 @@ if (index === -1) {
   alert("Порядковый номер первого числа, большего " + n + ": " + index);
 }
 }
-
 function func22() {
   let resultt=document.getElementById('ww')
   var number = parseInt(prompt("Введите натуральное число:"));
@@ -473,7 +471,6 @@ function func22() {
   var bCount = 0;
   
   var numberString = number.toString();
-  
   // Перебор каждого символа в строке числа
   for (var i = 0; i < numberString.length; i++) {
       var digit = parseInt(numberString[i]);
@@ -484,16 +481,12 @@ function func22() {
           bCount++;
       }
   }
-  
-
   if (aCount < bCount) {
       alert("Цифра 2 встречается реже, чем цифра 3");
   } else {
       alert("Цифра 2 чаще, чем цифра 3");
   }
 }
-
-
 function func23() {
   let resultt=document.getElementById('www')
   var num = 10;
@@ -503,10 +496,7 @@ function func23() {
     num++;
  }
   alert(message);
-
 }
-
-  
   </code>
     <h2 style="text-align: center">ВЫВОД</h2>
   JavaScript – это язык программирования, который добавляет интерактивность на ваш веб-сайт (например: игры, отклик при нажатии кнопок или при вводе данных в формы, динамические стили, анимация). 
